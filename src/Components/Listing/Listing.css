@@ -1,0 +1,85 @@
+#Listing{
+    width: 100%;
+    /* height: 77vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: white;
+    padding: 20px;
+}
+#Listing form{
+    max-width: 500px;
+    width: 100%;
+    border: 1px solid black;
+    padding:  30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+    border-radius: 10px;
+}
+
+#title{
+    /* width: 100%; */
+    font-size: 30px;
+    font-weight: 400;
+    margin: 0 auto 20px;
+    /* text-align: center; */
+}
+
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    width: 100%;
+    /* gap: 5px; */
+    
+}
+
+.list input{
+    width: 100%;
+    padding: 5px 10px;
+    font-size: 15px;
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid rgb(70 , 69 , 69);
+}
+.list textarea{
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 35px;
+    padding: 5px 10px;
+    font-size: 15px;
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid rgb(70 , 69 , 69);
+}
+.list label{
+    font-size: 15px;
+    font-weight: 300;
+}
+.loginbtn2{
+    padding: 5px 30px;
+    background: green;
+    border: 1px solid green;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    transition: .3s ease;
+    cursor: pointer;
+}
+
+.loginbtn2:hover{
+    background: transparent;
+    border: 1px solid green;
+    color: green;
+}

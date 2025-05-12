@@ -1,0 +1,18 @@
+
+.home{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px , 1fr));
+    gap: 40px;
+    /* padding: 30px 20px; */
+    padding: 50px 10%;
+    
+}
+
+@media (max-width:600px) {
+    .home{
+        grid-template-columns: repeat(auto-fit, minmax(150px , 1fr));
+        gap: 20px;
+        padding: 30px 20px;
+    }
+}

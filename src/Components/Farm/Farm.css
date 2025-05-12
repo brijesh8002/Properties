@@ -1,0 +1,23 @@
+.farm{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px , 1fr));
+    gap: 40px;
+    /* padding: 30px 20px; */
+    padding: 50px 10%;
+    
+}
+.title-cat{
+    text-align: center;
+    margin: 20px 20px 0;
+    font-size: 30px;
+    color: green;
+}
+
+@media (max-width:600px) {
+    .farm{
+        grid-template-columns: repeat(auto-fit, minmax(150px , 1fr));
+        gap: 20px;
+        padding: 30px 20px;
+    }
+}
